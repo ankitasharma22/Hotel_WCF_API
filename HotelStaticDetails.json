@@ -1,0 +1,32 @@
+[
+{ 
+"HotelID" : "1", 
+"HotelName" : "RadisonBlu",
+"HotelRating" : 4, 
+"HotelDescription":"This polished hotel is 1.4 km from Aga Khan Palace and 6 km from Pune Airport.Featuring Wi-Fi and flat-screen TVs, the upscale rooms have minibars, and tea and coffeemakers, along with safes, sofabeds and desks; some have glass-enclosed bathrooms. Upgraded rooms provide free airport shuttle service, plus access to a lounge offering complimentary breakfast and evening cocktails. Suites add separate living rooms. Room service is 24/7.",
+"HotelContactNumber":" 02067056000",
+"HotelAmenities":"Free Wi-Fi , Breakfast , Swimming Pool , Gym , Bar , Spa ,  Laundry service",
+"HotelPolicy":"http://radison.com/privacy.html",
+"HotelImageURL":"https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=image1,https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=image2,https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=image3"
+},
+{ 
+"HotelID" : "2", 
+"HotelName" : "HyattRegency",
+"HotelRating" : 4, 
+"HotelDescription":"Featuring Wi-Fi and flat-screen TVs, the upscale rooms have minibars, and tea and coffeemakers, along with safes, sofabeds and desks; some have glass-enclosed bathrooms. Upgraded rooms provide free airport shuttle service, plus access to a lounge offering complimentary breakfast and evening cocktails. Suites add separate living rooms. Room service is 24/7.",
+"HotelContactNumber":" 0206701236",
+"HotelAmenities":"Free Wi-Fi , Breakfast , Swimming Pool , Gym , Bar , Spa ,  Laundry service",
+"HotelPolicy":"http://Hyatt.com/privacy.html",
+"HotelImageURL":"https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=image1,https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=image2,https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=image3"        
+},
+{ 
+"HotelID" : "3", 
+"HotelName" : "Novotel",
+"HotelRating" : 4, 
+"HotelDescription":" Upgraded rooms provide free airport shuttle service, plus access to a lounge offering complimentary breakfast and evening cocktails. Suites add separate living rooms. Room service is 24/7.",
+"HotelContactNumber":" 70367056000",
+"HotelAmenities":"Free Wi-Fi , Breakfast , Swimming Pool , Gym , Bar , Spa ,  Laundry service",
+"HotelPolicy":"http://novotel.com/privacy.html",
+"HotelImageURL":"https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=image1,https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=image2,https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=image3"
+}
+]

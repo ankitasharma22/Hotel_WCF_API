@@ -1,0 +1,26 @@
+Cassandra:
+
+CREATE KEYSPACE HotelDB WITH replication = {'class':'SimpleStrategy', 'replication_factor':1}; 
+CREATE TABLE HotelDB.HOTEL(HotelID uuid PRIMARY KEY, HotelName text, HotelAddress text, HotelCity text, HotelState text, PinCode int );
+Create table hotel_info.rooms (hotelId int,roomType varchar,NoOfRooms int,cost int,primary Key(hotelId,roomType));
+
+insert into hoteldb.hotel(hotelid,hoteladdress,hotelcity,hotelname,hotelstate,pincode) values(2,'7  Wardha Road Chhatrapati Square'
+ 	,'Nagpur','RadisonBlu',
+'Maharashtra',
+	40030
+);
+insert into hoteldb.hotel(hotelid,hoteladdress,hotelcity,hotelname,hotelstate,pincode) values(2,'Weikfield','Pune','HyattRegency',
+'Maharashtra',
+	412032
+);
+insert into hoteldb.hotel(hotelid,hoteladdress,hotelcity,hotelname,hotelstate,pincode) values(3,'Weikfield','Pune','Novotel',
+'Maharashtra',
+	412002
+);
+
+CREATE TABLE hoteldb.LogDetails(LogId uuid Primary key,Request text, Response text, Comments text, Time TIMESTAMP);
+
+SQL:
+
+CREATE TABLE HotelBooking(BookingId int Identity(1,1) Primary Key, HotelId int Not null, HotelName varchar(50) Not null, RoomType varchar(50) Not null, 
+NumberOfRoomsToBeBooked int Not null, TotalPrice int Not null)
